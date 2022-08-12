@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amol's Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- script for icons -->
+    <script
+      src="https://kit.fontawesome.com/c65c3f2840.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1><span style="color: #256d85">A</span>mol</h1>
+          <ul id="sideMenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!-- xmark icon -->
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+          </ul>
+          <!-- menu icon  -->
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Full Stack Developer</p>
+          <h1>
+            Hi, I'm <span>Amol</span><br />
+            Gahane From <span style="color: #ff9933">In</span>d<span
+              style="color: #006400"
+              >ia</span
+            >
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- --------------- about-amol-------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./img/191.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Amol</h1>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut ab
+              dolorem ipsum dicta, cumque impedit reiciendis in minima laborum
+              nostrum vero dolore laudantium sint non debitis facere soluta
+              facilis consequuntur perspiciatis odit voluptatum error doloremque
+              pariatur saepe. Facilis incidunt et voluptatum labore tempore
+              minus, maxime cum corporis, quisquam pariatur possimus!
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Language</span><br />
+                  Core Java, C, C++
+                </li>
+                <li><span>Database</span><br />MySQL, T-SQL, SQL-Server</li>
+                <li><span>Web Development</span><br />Html, Css, Javascript</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Jul 2022 - Current</span><br />
+                  Trainee Developer at Birlasoft
+                </li>
+                <li>
+                  <span>Aug 2021 - Jan 2022</span><br />Intern at Pie Infocomm
+                </li>
+                <li>
+                  <span>Jab 2021 - Feb 2021</span><br />Intern at Suven
+                  Consultants
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2022</span><br />
+                  B.E. Graduate from DBACER Nagpur
+                </li>
+                <li>
+                  <span>2018</span><br />H.S.C. from Late Devkibai Bang Jr.
+                  College Hingna
+                </li>
+                <li>
+                  <span>2016</span><br />S.S.C. from Nehru Vidyalaya Hingna
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------work-services--------------------- -->
+    <div id="work">
+      <div class="container">
+        <h1 class="sub-title">Amol Work</h1>
+        <div class="work-list">
+          <div>
+            <i class="fa-solid fa-pen-ruler"></i>
+            <h2>Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Explicabo, officia illum suscipit repudiandae dolorum qui? Nisi
+              rem fugit a omnis, accusamus officiis vitae, quibusdam quam iure
+              temporibus, neque ratione aperiam.
+            </p>
+            <a href="https://codepen.io/amol-rg001/pen/ExEwbeN" target="_blank">Read More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Code</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              esse dolore, est perspiciatis dignissimos necessitatibus aut vitae
+              qui cumque hic dolorem accusamus rerum quibusdam aspernatur
+              voluptatem voluptas laudantium quos ipsum!
+            </p>
+            <a href="file:///E:/OPEN-Learning/Learn_html/one.html" target="_blank">Read More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-rocket"></i>
+            <h2>Launch</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
+              beatae impedit optio tempora, neque amet commodi accusantium nihil
+              vero, aut molestias possimus necessitatibus sit, perferendis enim
+              tempore debitis vitae fugiat.
+            </p>
+            <a href="file:///C:/Users/Amol/Desktop/FreeCodeCamp-NewsFlash-main/Completed/index.html" >Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------contact------------------ -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Amol</h1>
+            <p><i class="fa-solid fa-envelope"></i>gahaneamol37@gmail.com</p>
+            <p><i class="fa-brands fa-telegram"></i>9075692631</p>
+            <div class="social-icons">
+              <a href="https://facebook.com/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://instagram.com/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://linkedin.com/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+
+            <a href="./CV/Amol_CV.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form action="">
+              <input type="text" name="Name" placeholder="Your name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="message"
+                id="message"
+                rows="6"
+                placeholder="Message for Amol"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- copyright -->
+      <div class="copyright">
+        <p>
+          Copyright @ 2022 Amol Gahane From India<img
+            src="./img/india.png"
+            alt="flag"
+          />
+        </p>
+      </div>
+    </div>
+
+    <!-- --------------------JavaScript--------------------- -->
+
+    <!-- script for about section tabs -->
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <!-- script for side Menu -->
+    <script>
+      var sideMenu = document.getElementById("sideMenu");
+
+      function openMenu() {
+        sideMenu.style.right = "0";
+      }
+
+      function closeMenu() {
+        sideMenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
